@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -32,13 +31,11 @@ body {
 
 .logo {
     height: 55px;
-    transition-property: all;
-    transition-duration: 1s;
+    transition: all 0.6s;
 }
 
 .logo:hover {
-    animation: logoAnimation 1s ease;
-    animation-fill-mode:forwards;
+    transform: rotate(180deg);
 }
 
 .tab {
@@ -117,11 +114,6 @@ body {
     }
 }
 
-@keyframes logoAnimation{
-    100% {
-        transform: rotate(180deg);
-    }
-}
 
 .btn:link,
 .btn:visited{
