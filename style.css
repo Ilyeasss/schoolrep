@@ -150,7 +150,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     z-index: 10;
-    background-color: rgb(142, 0, 0);
+    background-color: #8e0000;
     padding: 0 30px;
     border: solid 3px #000000;
     transition: transform 0.3s ease;
